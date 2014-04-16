@@ -1,0 +1,9 @@
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+dataSources.ids
+datasources.xml
+out
+.DS_Store
+thumbs.db

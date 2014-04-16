@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="MainPane" fx:id="dei" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="342.0" prefWidth="615.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.xxmicloxx.gsplayer.gui.controller.MainWindow">
+  <stylesheets>
+    <URL value="@General.css" />
+    <URL value="@MainWindow.css" />
+  </stylesheets>
+  <Button id="Button1" focusTraversable="true" layoutX="146.0" layoutY="0.0" mnemonicParsing="false" prefHeight="115.0" prefWidth="469.0" text="" />
+  <Button id="Button2" layoutX="146.0" layoutY="115.0" mnemonicParsing="false" prefHeight="114.0" prefWidth="469.0" text="" />
+  <Button id="Button3" layoutX="146.0" layoutY="229.0" mnemonicParsing="false" prefHeight="113.0" prefWidth="469.0" text="" />
+  <Button id="SmallButton2" layoutX="0.0" layoutY="307.0" mnemonicParsing="false" mouseTransparent="false" prefHeight="35.0" prefWidth="146.0" text="%author.about" />
+  <Button id="SmallButton1" graphicTextGap="4.0" layoutX="0.0" layoutY="272.0" minWidth="145.9998779296875" mnemonicParsing="false" mouseTransparent="false" prefHeight="35.0" prefWidth="146.0" text="%language.switch" textOverrun="ELLIPSIS" wrapText="false" />
+  <Group layoutX="160.0">
+    <Label layoutX="0.0" layoutY="14.0" mouseTransparent="true" prefWidth="441.0" styleClass="TitleLabel" text="%music.play" />
+    <Label layoutX="0.0" layoutY="35.0" mouseTransparent="true" prefHeight="66.0" prefWidth="441.0" styleClass="DescLabel" text="%music.play.desc" />
+  </Group>
+  <Group layoutX="160.0" layoutY="115.0">
+    <Label layoutX="0.0" layoutY="14.0" mouseTransparent="true" prefWidth="441.0" styleClass="TitleLabel" text="%music.search" />
+    <Label layoutX="0.0" layoutY="35.0" mouseTransparent="true" prefHeight="65.9998779296875" prefWidth="441.0" styleClass="DescLabel" text="%music.search.desc" />
+  </Group>
+  <Group layoutX="160.0" layoutY="229.0">
+    <Label layoutX="0.0" layoutY="14.0" mouseTransparent="true" prefWidth="441.0" styleClass="TitleLabel" text="%music.organize" />
+    <Label layoutX="0.0" layoutY="35.0" mouseTransparent="true" prefHeight="66.0" prefWidth="441.0" styleClass="DescLabel" text="%music.organize.desc" />
+  </Group>
+</AnchorPane>

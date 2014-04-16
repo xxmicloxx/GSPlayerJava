@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="GSPlayerJava">
+    <output-path>$PROJECT_DIR$/out/artifacts/GSPlayerJava</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.xxmicloxx.gsplayer.Main" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="GSPlayer" />
+        <option name="vendor" value="xxmicloxx" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="GSPlayerJava.jar">
+        <element id="module-output" name="GSPlayerJava" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/lib/lombok.jar" path-in-jar="/" />
+      </element>
+    </root>
+  </artifact>
+</component>

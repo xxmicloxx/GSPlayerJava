@@ -1,0 +1,7 @@
+.button {
+    -fx-focus-color: transparent;
+    border: none;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}

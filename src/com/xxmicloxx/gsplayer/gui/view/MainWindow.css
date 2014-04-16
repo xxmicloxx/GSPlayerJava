@@ -1,0 +1,79 @@
+#MainPane {
+    -fx-background-image: url("res/theme/Hauptmenue/GSP_Logo.png");
+    -fx-background-repeat: no-repeat;
+}
+
+#Button1 {
+    -fx-background-image: url("res/theme/Hauptmenue/1_Button_normal.png");
+}
+#Button1:hover {
+    -fx-background-image: url("res/theme/Hauptmenue/1_Button_hover.png");
+}
+#Button1:pressed {
+    -fx-background-image: url("res/theme/Hauptmenue/1_Button_pressed.png");
+}
+
+#Button2 {
+    -fx-background-image: url("res/theme/Hauptmenue/2_Button_normal.png");
+}
+#Button2:hover {
+    -fx-background-image: url("res/theme/Hauptmenue/2_Button_hover.png");
+}
+#Button2:pressed {
+    -fx-background-image: url("res/theme/Hauptmenue/2_Button_pressed.png");
+}
+
+#Button3 {
+    -fx-background-image: url("res/theme/Hauptmenue/3_Button_normal.png");
+}
+#Button3:hover {
+    -fx-background-image: url("res/theme/Hauptmenue/3_Button_hover.png");
+}
+#Button3:pressed {
+    -fx-background-image: url("res/theme/Hauptmenue/3_Button_pressed.png");
+}
+
+#SmallButton1 {
+    -fx-text-fill: #d66603;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-label-padding: 2px 0 0 0;
+    -fx-padding: 0;
+    -fx-font-family: 'Arial';
+    -fx-background-image: url("res/theme/Hauptmenue/1_Side_Button_normal.png");
+}
+#SmallButton1:hover {
+    -fx-background-image: url("res/theme/Hauptmenue/1_Side_Button_hover.png");
+}
+#SmallButton1:pressed {
+    -fx-background-image: url("res/theme/Hauptmenue/1_Side_Button_pressed.png");
+}
+
+#SmallButton2 {
+    -fx-text-fill: #d66603;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-label-padding: 2px 0 0 0;
+    -fx-padding: 0;
+    -fx-font-family: 'Arial';
+    -fx-background-image: url("res/theme/Hauptmenue/2_Side_Button_normal.png");
+}
+#SmallButton2:hover {
+    -fx-background-image: url("res/theme/Hauptmenue/2_Side_Button_hover.png");
+}
+#SmallButton2:pressed {
+    -fx-background-image: url("res/theme/Hauptmenue/2_Side_Button_pressed.png");
+}
+
+.TitleLabel {
+    -fx-text-fill: #ffbe47;
+    -fx-font-weight: bold;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 18;
+    -fx-effect: dropshadow(gaussian, rgba(161, 161, 161, 0.70), 2, 0, 0, 1);
+}
+
+.DescLabel {
+    -fx-text-fill: #727272;
+    -fx-font-size: 14;
+}
